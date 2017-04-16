@@ -1,6 +1,6 @@
 
-title: My Resume
-url: 'http://webjeda.com'
+title: Computational Neuroimaging and Brain Disorders
+url: 'http://www.hongseokjun.com'
 baseurl: '/academic_cv' #change it according to your repository name
 
 
@@ -15,14 +15,13 @@ baseurl: '/academic_cv' #change it according to your repository name
 #Profile information
 name: Seok-Jun Hong
 tagline: Post-doctoral fellow in MNI
-pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+pic: me.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
-email: hello@webjeda.com
-phone: 012 345 6789
-website: blog.webjeda.com #do not add http://
-linkedin: alandoe
-github: sharu725
+email: sjhong@bic.mni.mcgill.ca
+phone: 514 398 2906
+Lab website: mica-mni.github.io
+google scholar: https://scholar.google.com/citations?user=N7uX1isAAAAJ&hl=en
 twitter: '@webjeda'
 
 
