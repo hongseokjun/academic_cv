@@ -20,9 +20,9 @@ pic: me.jpg  #place a 100x100 picture inside /assets/images/ folder and provide 
 #sidebar links
 email: sjhong@bic.mni.mcgill.ca
 phone: 514 398 2906
-Lab website: mica-mni.github.io
-google scholar: https://scholar.google.com/citations?user=N7uX1isAAAAJ&hl=en
-twitter: '@webjeda'
+website: mica-mni.github.io
+google_scholar: https://scholar.google.com/citations?user=N7uX1isAAAAJ&hl=en
+twitter: '@hong_seok_jun'
 
 
 # Tracker
