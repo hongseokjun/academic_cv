@@ -14,7 +14,8 @@ baseurl: '/academic_cv' #change it according to your repository name
 
 #Profile information
 name: Seok-Jun Hong
-tagline: Post-doctoral fellow in MNI
+tagline: Post-doctoral fellow
+affiliation: MICA/NOEL in MNI
 pic: me.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
