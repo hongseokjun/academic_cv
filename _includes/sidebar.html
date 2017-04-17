@@ -23,18 +23,6 @@
                     <li class="phone"><i class="fa fa-phone"></i><a href="tel:012 345 6789">012 345 6789</a></li>
                     {% endif %}
                     
-                    {% if site.address %}
-                    <li class="address"><i class="fa fa-search"></i>{{site.address}}<br><br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.053512847848!2d-73.58359408438088!3d45.50900137910149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a37365d4c5f%3A0xd75187e12c47cf1c!2sMontreal+Neurological+Institute+and+Hospital!5e0!3m2!1sko!2sca!4v1492399889989" width="180" height="160" frameborder="0" style="border:0" allowfullscreen></iframe></li>
-                    {% else %}
-                    <li class="address"><i class="fa fa-search"></i><a href="http://blog.webjeda.com" target="_blank">blog.webjeda.com</a></li>
-                    {% endif %}
-                  
-                    {% if site.website_sec %}
-                    <li class="website_sec"><i class="fa fa-flask"></i><sup>2</sup><a href="http://{{site.website_sec}}" target="_blank"> {{site.website_sec}}</a></li>
-                    {% else %}
-                    <li class="website_sec"><i class="fa fa-globe"></i><a href="http://blog.webjeda.com" target="_blank">blog.webjeda.com</a></li>
-                    {% endif %}  
-                  
                     {% if site.google_scholar %}
                     <li class="google_scholar"><i class="fa fa-google"></i><a href="{{site.google_scholar}}" target="_blank">google scholar</a></li>
                     {% else %}
@@ -47,6 +35,12 @@
                      <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/@webjeda" target="_blank">@webjeda</a></li>
                     {% endif %}
                     
+                    {% if site.address %}
+                    <li class="address"><i class="fa fa-search"></i>{{site.address}}<br><br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.053512847848!2d-73.58359408438088!3d45.50900137910149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a37365d4c5f%3A0xd75187e12c47cf1c!2sMontreal+Neurological+Institute+and+Hospital!5e0!3m2!1sko!2sca!4v1492399889989" width="180" height="160" frameborder="0" style="border:0" allowfullscreen></iframe></li>
+                    {% else %}
+                    <li class="address"><i class="fa fa-search"></i><a href="http://blog.webjeda.com" target="_blank">blog.webjeda.com</a></li>
+                    {% endif %}
+                  
                 </ul>
             </div><!--//contact-container-->
             
