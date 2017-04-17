@@ -211,6 +211,11 @@ p {
   overflow: hidden;
   margin-bottom: 2px;
 }
+.main-wrapper .bottom-row {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 2px;
+}
 .main-wrapper .job-title {
   color: #3F4650;
   font-size: 16px;
